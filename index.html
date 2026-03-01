@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sujal Das - AI & Data Science Student</title>
+    <meta
+      name="description"
+      content="A modern developer portfolio showcasing projects, skills, and contact information."
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">
+          <span class="logo-mark">&lt;/&gt;</span>
+          <span class="logo-text">Sujal Das</span>
+        </div>
+        <nav class="nav">
+          <button
+            class="nav-toggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="section hero">
+        <div class="container hero-inner">
+          <div class="hero-content" data-animate="fade-up">
+            <p class="hero-kicker">Hello, I’m</p>
+            <h1 class="hero-title">Sujal Das</h1>
+            <h2 class="hero-subtitle">
+              <span id="typing-text" class="typing-text"></span>
+              <span class="typing-cursor"></span>
+            </h2>
+            <p class="hero-description">
+              A second-year AI & Data Science student passionate about building
+              clean, modern web experiences and exploring machine learning.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+          </div>
+          <div class="hero-highlight" data-animate="fade-left">
+            <div class="hero-card">
+              <p class="hero-card-label">Current Focus</p>
+              <p class="hero-card-text">
+                Frontend development, Python, and practical machine learning
+                projects.
+              </p>
+              <div class="hero-stats">
+                <div class="stat">
+                  <span class="stat-label">Year</span>
+                  <span class="stat-value">2nd Year</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-label">Projects</span>
+                  <span class="stat-value">3+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section about">
+        <div class="container section-inner" data-animate="fade-up">
+          <div class="section-header">
+            <p class="section-kicker">About</p>
+            <h2 class="section-title">Who I Am</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                I'm a second-year AI & Data Science student passionate about
+                web development and machine learning. I enjoy building clean,
+                modern interfaces with HTML, CSS, and JavaScript, while
+                exploring the fascinating world of data science and AI with
+                Python.
+              </p>
+              <p>
+                My journey involves combining frontend development skills with
+                machine learning fundamentals to create projects that are both
+                visually appealing and data-driven. I'm constantly learning and
+                experimenting with new technologies to grow as a developer.
+              </p>
+            </div>
+            <div class="about-meta">
+              <div class="about-card">
+                <h3>What I’m into</h3>
+                <ul>
+                  <li>Modern web development & micro-interactions</li>
+                  <li>Machine learning fundamentals & small ML projects</li>
+                  <li>Clean, readable code and thoughtful UX</li>
+                </ul>
+              </div>
+              <div class="about-card">
+                <h3>Currently learning</h3>
+                <ul>
+                  <li>Modern JavaScript patterns</li>
+                  <li>Responsive design best practices</li>
+                  <li>Model deployment & ML workflows</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section skills">
+        <div class="container section-inner">
+          <div class="section-header" data-animate="fade-up">
+            <p class="section-kicker">Skills</p>
+            <h2 class="section-title">What I Work With</h2>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-group" data-animate="fade-right">
+              <h3>Core</h3>
+              <div class="skill-bar">
+                <div class="skill-bar-label">
+                  <span>Python</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-skill-level="80"></div>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-label">
+                  <span>JavaScript</span>
+                  <span>75%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-skill-level="75"></div>
+                </div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-label">
+                  <span>HTML &amp; CSS</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-skill-level="85"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-group" data-animate="fade-left">
+              <h3>Machine Learning</h3>
+              <div class="skill-card">
+                <h4>Machine Learning Basics</h4>
+                <p>
+                  Learning the fundamentals of machine learning, including basic
+                  models, data preprocessing, and evaluation using Python.
+                </p>
+                <div class="skill-tags">
+                  <span class="tag">NumPy</span>
+                  <span class="tag">Pandas</span>
+                  <span class="tag">scikit-learn</span>
+                </div>
+              </div>
+              <div class="skill-card">
+                <h4>Interests</h4>
+                <p>
+                  Experimenting with small ML projects and integrating simple
+                  models into web apps.
+                </p>
+                <div class="skill-tags">
+                  <span class="tag">Classification</span>
+                  <span class="tag">Regression</span>
+                  <span class="tag">Visualization</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section projects">
+        <div class="container section-inner">
+          <div class="section-header" data-animate="fade-up">
+            <p class="section-kicker">Projects</p>
+            <h2 class="section-title">Selected Work</h2>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card" data-animate="fade-up">
+              <div class="project-card-inner">
+                <div class="project-card-front">
+                  <span class="project-category category-ai">AI / Healthcare</span>
+                  <h3>Antibiotic Resistance Predictor (DRAP)</h3>
+                  <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Machine Learning</span>
+                    <span class="tag">Bioinformatics</span>
+                    <span class="tag">scikit-learn</span>
+                    <span class="tag">Data Preprocessing</span>
+                  </div>
+                </div>
+                <div class="project-card-back">
+                  <p>
+                    A bioinformatics ML model that analyzes bacterial patterns to predict antibiotic resistance. Built for real-world clinical use with high-precision requirements, imbalanced dataset handling, and medical-grade data preprocessing.
+                  </p>
+                  <a
+                    href="https://drap-antibioticai.streamlit.app/"
+                    class="btn btn-primary btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Launch App
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-animate="fade-up" data-animate-delay="0.1">
+              <div class="project-card-inner">
+                <div class="project-card-front">
+                  <span class="project-category category-web">Full Stack / Web</span>
+                  <h3>Netflix Clone</h3>
+                  <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">REST API</span>
+                    <span class="tag">Vercel</span>
+                    <span class="tag">State Management</span>
+                  </div>
+                </div>
+                <div class="project-card-back">
+                  <p>
+                    A full-stack streaming platform clone with responsive UI, media metadata API integration, and complex state management. Successfully deployed on Vercel.
+                  </p>
+                  <a
+                    href="https://netflixforsujal.vercel.app/"
+                    class="btn btn-primary btn-project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Live
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-animate="fade-up" data-animate-delay="0.2">
+              <div class="project-card-inner">
+                <div class="project-card-front">
+                  <span class="project-category category-cv">CV / HCI</span>
+                  <h3>GhostOperator</h3>
+                  <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">OpenCV</span>
+                    <span class="tag">Mediapipe</span>
+                    <span class="tag">Computer Vision</span>
+                    <span class="tag">Gesture Recognition</span>
+                  </div>
+                </div>
+                <div class="project-card-back">
+                  <p>
+                    A real-time computer vision system using Mediapipe and OpenCV to track hand landmarks and map gestures to OS-level commands — controlling volume, mouse movement and system functions without touching a keyboard.
+                  </p>
+                  <a
+                    class="btn btn-primary btn-project btn-project--disabled"
+                    aria-disabled="true"
+                    tabindex="-1"
+                    data-tooltip="GitHub repo coming soon"
+                  >
+                    Coming Soon
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact">
+        <div class="container section-inner">
+          <div class="section-header" data-animate="fade-up">
+            <p class="section-kicker">Contact</p>
+            <h2 class="section-title">Let’s Connect</h2>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-info" data-animate="fade-right">
+              <p>
+                Whether you’re interested in collaborating, have a question, or
+                just want to say hi, feel free to reach out. I’m always open to
+                new opportunities and conversations.
+              </p>
+              <ul class="contact-meta">
+                <li>
+                  <span class="meta-label">Email</span>
+                  <a href="mailto:sujaldas2205@gmail.com" class="meta-value"
+                    >sujaldas2205@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <span class="meta-label">Location</span>
+                  <span class="meta-value">Nagpur, India</span>
+                </li>
+              </ul>
+            </div>
+            <form
+              class="contact-form"
+              data-animate="fade-left"
+              novalidate
+              id="contact-form"
+            >
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                  />
+                  <p class="field-error" aria-live="polite"></p>
+                </div>
+                <div class="form-field">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="you@example.com"
+                    required
+                  />
+                  <p class="field-error" aria-live="polite"></p>
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="What would you like to talk about?"
+                  required
+                ></textarea>
+                <p class="field-error" aria-live="polite"></p>
+              </div>
+              <button type="submit" class="btn btn-primary form-submit">
+                Send Message
+              </button>
+              <p class="form-status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+          <p>&copy; <span id="year"></span> Sujal Das. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="https://github.com/aryan0038" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/sujal-das-19b3b53a2" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </footer>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
+
